@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/output.css">
+     <!-- Font-Awesome embedded code -->
+    <script src="https://kit.fontawesome.com/93aaa97374.js" crossorigin="anonymous"></script>
+    <title>Responsive SideBar</title>
+</head>
+<body class="">
+    <!-- Toggle Button -->
+    <div class="relative h-32 w-full">
+        <button class="toggleBtn absolute top-0 right-0 h-16 w-16 ... text-4xl">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </div>
+    <!-- SideBar -->
+    <aside class="sidebar bg-secondary fixed top-0 left-0 h-full w-full md:w-96"> 
+        <div class="flex justify-between">
+            <ul class="ml-2">
+                <li class="text-2xl font-bold">Coding <span class="text-3xl font-bold">Addict</span></li>
+            </ul>
+            <button class="xmark text-red-600 text-4xl mr-2">
+                <i class="fa-solid fa-times"></i>
+            </button>
+        </div>
+        <!-- Links -->
+        <div class=" hidden links">
+            <ul class="block text-xl">
+                <li class="p-4">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="p-4">
+                    <a href="#">About</a>
+                </li>
+                <li class="p-4">
+                    <a href="#">Projects</a>
+                </li>
+                <li class="p-4">
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+         <!-- Social Media Icon -->
+        <div class="flex justify-center absolute bottom-0 text-2xl w-full mb-4">
+            <ul class="flex items-center">
+                <li class="mx-4">
+                    <a href="https://www.twitter.com">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="mx-4">
+                    <a href="https://www.twitter.com">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+                <li class="mx-4">
+                    <a href="https://www.twitter.com">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="mx-4">
+                    <a href="https://www.twitter.com">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>   
+    </aside>
+        <script src="app.js"></script>
+</body>
+</html>
